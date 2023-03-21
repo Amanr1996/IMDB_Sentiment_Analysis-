@@ -19,11 +19,31 @@ To run this project, you will need Python 3 and the following libraries:
 * scikit-learn
 * nltk
 
+**Classifiers**
 
+The following Naive Bayes classifiers were evaluated on the dataset:
+
+* Gaussian Naive Bayes
+* Multinomial Naive Bayes
+* Bernoulli Naive Bayes
+
+Each classifier was trained on a subset of the dataset and evaluated on a separate test set. The evaluation metric used was accuracy, which measures the proportion of correctly classified examples.
 
 
 **Results**
-The final model achieved an accuracy of *0.8335* the test set, indicating that it is able to effectively predict the sentiment of new reviews. However, there may be some room for improvement, and future work could involve experimenting with different feature extraction techniques or model architectures.
+The accuracy scores for each classifier are as follows:
+
+* Gaussian Naive Bayes: 0.6435
+
+* Multinomial Naive Bayes: 0.8305
+
+* Bernoulli Naive Bayes: 0.8335es.
+
+Based on these results, it appears that the Bernoulli Naive Bayes classifier performs slightly better than the Multinomial Naive Bayes classifier on this particular dataset. However, it's worth noting that the difference in accuracy between the two classifiers is relatively small.
+
+**Conclusion**
+
+In conclusion, this project shows that the choice of Naive Bayes classifier can have a significant impact on classification performance, depending on the nature of the dataset and the specific task at hand. While the Bernoulli Naive Bayes classifier appears to perform slightly better than the Multinomial Naive Bayes classifier on this dataset, further experimentation and evaluation may be necessary to determine which classifier is truly the most effective.
 
 **Credits**
 This project was developed by Aman. The dataset was obtained from Kaggle, and the natural language processing techniques were implemented using the scikit-learn and NLTK libraries.
