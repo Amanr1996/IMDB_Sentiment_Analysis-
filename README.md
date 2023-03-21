@@ -6,7 +6,7 @@ This is a machine learning project that aims to predict the sentiment of IMDb mo
 
 The data used in this project is a publicly available dataset of movie reviews from IMDb. It consists of 50,000 reviews, split evenly between positive and negative reviews. The dataset is preprocessed and formatted in a way that makes it easy to use for machine learning tasks.
 
-**Methodology*
+**Methodology**
 
 The project uses a variety of natural language processing techniques to extract features from the text data, including tokenization, stopword removal, stemming, and vectorization. These features are then fed into a machine learning model, specifically a logistic regression classifier, which is trained on a subset of the data and evaluated on a separate test set. The final model is then used to predict the sentiment of new, unseen reviews.
 
