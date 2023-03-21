@@ -1,4 +1,4 @@
-#**IMDB Sentiment Analysis Project**
+**IMDB Sentiment Analysis Project**
 
 This is a machine learning project that aims to predict the sentiment of IMDb movie reviews using natural language processing techniques. The goal is to build a model that can accurately classify reviews as either positive or negative based on the text content.
 
